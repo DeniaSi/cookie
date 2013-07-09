@@ -10,6 +10,19 @@ The plugin will block javascript-based cookie creators, however because iframe-b
 
 	}
 
+
+HACKING
+
+The code has a working build environment, if you make modifications to the code, use "make" to regenerate the installer packages.
+
+The version folders contain files which are unique to the desired version. The ZIP files will include files from the "common" folder unless a file with the same name is present in the joomla version subfolder. These will then be packaged into the different Joomla installation packages appropriately.
+
+
+INSTALL
+
+If you simply wish to use these plugins, see the ZIP files in the "install" folder. These may be installed directly into Joomla as extensions. Please check with the joomla community if you are unsure which package is appropriate for your Joomla version.
+
+
 Copyright (C) 2011-2012, Channel Computing
 All rights reserved.
 
