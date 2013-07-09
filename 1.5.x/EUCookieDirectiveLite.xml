@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system" method="upgrade">
+    <name>system - EUCookieDirectiveLite</name> 
+    <author>Channel Digital Ltd.</author> 
+    <creationDate>2013-03-18</creationDate> 
+    <copyright>All rights reserved by channeldigital.co.uk 2013.</copyright> 
+    <license>GPL 1.0</license> 
+    <authorEmail>info@channeldigital.co.uk</authorEmail> 
+    <authorUrl>www.channeldigital</authorUrl> 
+    <version>1.0.9</version> 
+    <description>Opozorilo o uporabi piškotkov na spletni strani po direktivi EU.<br/><br/>NASTAVITEV VTIČNIKA system - EU Cookie Directiva:<br/>-  vtičnik je potrebno omogočiti<br/>- zamenjati opozorilo z dodatnim besedilom o uporabljenih piškotkih (primer: Za pravilno delovanje strani uporabljamo piškotke.) <br/><br/></description>
+    <files>
+        <folder plugin="EUCookieDirectiveLite">EUCookieDirectiveLite</folder>
+        <filename plugin="EUCookieDirectiveLite">EUCookieDirectiveLite.php</filename>
+        <filename>EUCookieDirectiveLite/images/info_icon.png</filename>
+        <filename>EUCookieDirectiveLite/images/continue_button.png</filename>
+        <filename>EUCookieDirectiveLite/EUCookieDirective.js</filename>
+    </files>
+    <params>
+        <param name="width" type="text" default="0" label="Width px (0 = full width)" description="The width of the message on the screen. 0 for 100%" />
+        <param name="warningMessage" type="textarea" rows="3" cols="15" default="Spletna stran uporablja piškotke. S pomočjo le-teh vas spletna stran prepozna." label="Warning Message" description="The message to display to users" />
+        <param name="detailsUrl" type="text" default="https://www.ip-rs.si/fileadmin/user_upload/Pdf/smernice/Smernice_o_uporabi_piskotkov.pdf" label="Details URL" description="Preberi več" />
+    </params>
+</install>

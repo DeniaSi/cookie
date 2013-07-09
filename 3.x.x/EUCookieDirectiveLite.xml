@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="system" method="upgrade">
+    <name>system - EU Cookie Directive</name> 
+    <author>Channel Digital.</author> 
+    <creationDate>2013-03-18</creationDate> 
+    <copyright>All rights reserved by channeldigital.co.uk 2013.</copyright> 
+    <license>GPL 1.0</license> 
+    <authorEmail>info@channelcomputing.co.uk</authorEmail> 
+    <authorUrl>www.channelcomputing.com</authorUrl> 
+    <version>1.0.9</version> 
+    <description> <![CDATA[
+<div align="LEFT">Opozorilo o uporabi piškotkov na spletni strani po direktivi EU.</br></br>NASTAVITEV VTIČNIKA system - EU Cookie Directiva:</br>-  vtičnik je potrebno omogočiti</br>- zamenjati opozorilo z dodatnim besedilom o uporabljenih piškotkih (primer: Za pravilno delovanje strani uporabljamo piškotke.) </br></br>
+          </div>]]></description>
+    <files>
+        <filename plugin="EUCookieDirectiveLite">EUCookieDirectiveLite.php</filename>
+        <filename>EUCookieDirectiveLite/images/info_icon.png</filename>
+        <filename>EUCookieDirectiveLite/images/continue_button.png</filename>
+        <filename>EUCookieDirectiveLite/EUCookieDirective.js</filename>
+    </files> 
+        <config>
+        <fields name="params">
+            <fieldset name="basic">
+        <field name="width" type="text" default="0" label="Width px (0 = full width)" description="The width of the message on the screen. 0 for 100%" />
+        <field name="warningMessage" type="textarea" rows="3" cols="15" default="Spletna stran uporablja piškotke. S pomočjo le-teh vas spletna stran prepozna." label="Varnostno opozorilo" description="Besedilo prikazano uporabnikom" />
+        <field name="detailsUrl" type="text" default="https://www.ip-rs.si/fileadmin/user_upload/Pdf/smernice/Smernice_o_uporabi_piskotkov.pdf" label="Podrobno URL" target="_blank" description="Preberi več" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
