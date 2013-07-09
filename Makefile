@@ -4,9 +4,19 @@ all:
 	make 3.x.x
 1.5.x:	1.5.x/EUCookieDirectiveLite.xml common/*	
 	-mkdir tmp
-	cp 1.5.x/EUCookieDirectiveLite.xml tmp/
 	cp -r common/* tmp/
-	zip -D -9 -l 1.5.x/EUCookieDirective_j15x.zip tmp/*
-	rmdir tmp/
+	cp -fr 1.5.x/* tmp/
+	cd tmp; zip -r -9 ../EUCookieDirective_j15x.zip *
+	-rm -r tmp/
 2.5.x:	2.5.x/EUCookieDirectiveLite.xml common/*
+	-mkdir tmp
+	cp -r common/* tmp/
+	cp -fr 2.5.x/* tmp/
+	cd tmp; zip -r -9 ../EUCookieDirective_j25x.zip *
+	-rm -r tmp/
 3.x.x:	3.x.x/EUCookieDirectiveLite.xml common/*
+	-mkdir tmp
+	cp -r common/* tmp/
+	cp -fr 3.x.x/* tmp/
+	cd tmp; zip -r -9 ../EUCookieDirective_j3x.zip *
+	-rm -r tmp/
