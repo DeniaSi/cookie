@@ -8,7 +8,7 @@
     <authorEmail>info@channelcomputing.co.uk</authorEmail> 
     <authorUrl>www.channelcomputing.com</authorUrl> 
     <version>1.0.9</version> 
-    <description><![CDATA[Opozorilo o uporabi piškotkov na spletni strani po direktivi EU.<br/><br/>NASTAVITEV VTIČNIKA system - EU Cookie Directiva:<br/>-  vtičnik je potrebno omogočiti<br/>- zamenjati opozorilo z dodatnim besedilom o uporabljenih piškotkih (primer: Za pravilno delovanje strani uporabljamo piškotke.) <br/><br/>]]></description>
+    <description><![CDATA[Opozorilo o uporabi piškotkov na spletni strani po direktivi EU.<br/><br/>NASTAVITEV VTIČNIKA system - EU Cookie Direktiva:<br/>-  vtičnik je potrebno omogočiti<br/>- zamenjati opozorilo z dodatnim besedilom o uporabljenih piškotkih (primer: Za pravilno delovanje strani uporabljamo piškotke.) <br/><br/>]]></description>
     <files>
         <filename plugin="EUCookieDirectiveLite">EUCookieDirectiveLite.php</filename>
 	<filename>accept.php</filename>
