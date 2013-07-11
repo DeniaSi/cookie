@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <install version="2.5" type="plugin" group="system" method="upgrade">
     <name>system - EUCookieDirectiveLite</name> 
-    <author>Channel Digital Ltd.</author> 
-    <creationDate>2013-3-18</creationDate> 
-    <copyright>All rights reserved by channeldigital.co.uk 2013.</copyright> 
-    <license>GPL 1.0</license> 
-    <authorEmail>info@channeldigital.co.uk</authorEmail> 
-    <authorUrl>www.channeldigital.co.uk</authorUrl> 
-    <version>1.0.9</version> 
+    <author>Channel Digital Ltd. and DENIA</author>
+    <creationDate>2013-03-18</creationDate>
+    <copyright>All rights reserved by channeldigital.co.uk and DENIA 2013</copyright>
+    <license>GPL 1.0</license>
+    <authorEmail>programiranje@denia.si</authorEmail>
+    <authorUrl>www.denia.si</authorUrl>            
+    <version>2.0.0</version>
     <description><![CDATA[Opozorilo o uporabi piškotkov na spletni strani po direktivi EU.<br/><br/>NASTAVITEV VTIČNIKA system - EU Cookie Direktiva:<br/>-  vtičnik je potrebno omogočiti<br/>- zamenjati opozorilo z dodatnim besedilom o uporabljenih piškotkih (primer: Za pravilno delovanje strani uporabljamo piškotke.) <br/><br/>]]></description>
     <files>
         <filename plugin="EUCookieDirectiveLite">EUCookieDirectiveLite.php</filename>
