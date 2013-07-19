@@ -134,7 +134,7 @@ class plgSystemEUCookieDirectiveLite extends JPlugin
    $strOutputHTML .= '</div>';
    $strOutputHTML .= '</td>';
    $strOutputHTML .= '<td align="left" style="vertical-align: top;">&nbsp;&nbsp;';
-   $strOutputHTML .= '<span class="accept" style="display: none;"><span class="cookieMessageText">&nbsp;</span></span></label> ';
+   $strOutputHTML .= '<span class="accept" style="display: none;"><span class="cookieMessageText">&nbsp;</span></span> ';
    $strOutputHTML .= '<div border="0" class="cookie_button" id="continue_button" style="margin-top: 3px; width: 100px; text-align:center;" onclick="SetCookie(\'cookieAcceptanceCookie\',\'accepted\',9999);">Omogoči piškotke</div>';
    $strOutputHTML .= '</td>';
    $strOutputHTML .= '<td align="right">';
