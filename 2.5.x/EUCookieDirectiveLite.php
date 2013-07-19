@@ -136,7 +136,7 @@ class plgSystemEUCookieDirectiveLite extends JPlugin
    $strOutputHTML .= '<div border="0" class="cookie_button" id="continue_button" style="margin-top: 3px; width: 100px; text-align:center;" onclick="SetCookie(\'cookieAcceptanceCookie\',\'accepted\');">Omogoči piškotke</div>';
    $strOutputHTML .= '</td>';
    $strOutputHTML .= '<td align="right">';
-   $strOutputHTML .= '<div id="cookieMessageInformationIcon" style="float:right;"><a href="http://www.channeldigital.co.uk/developer-resources/eu-cookie-directive-module.html" target="_blank"><img id="info_icon" src="' . $ICON_FOLDER . 'info_icon.png" alt="EU Cookie Directive Module Information" title="EU Cookie Directive Module Information" border="0" ></a></div>';
+   $strOutputHTML .= '<div id="cookieMessageInformationIcon" style="float:right;"><a href="http://www.channeldigital.co.uk/developer-resources/eu-cookie-directive-module.html" target="_blank"><img id="info_icon" src="' . $ICON_FOLDER . 'info_icon.png" alt="EU Cookie Directive Module Information" title="EU Cookie Directive Module Information" border="0" /></a></div>';
    $strOutputHTML .= '</td>';
    $strOutputHTML .= '</tr>';
    $strOutputHTML .= '</table>';
