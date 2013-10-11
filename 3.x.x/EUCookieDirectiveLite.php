@@ -128,7 +128,7 @@ class plgSystemEUCookieDirectiveLite extends JPlugin
    $strOutputHTML .= '<div id="cookieMessageContainer" style="margin-top:-10px;width:' . $width . ';background-color:#000; opacity:0.8;">';
    $strOutputHTML .= '<table style="width:100%">';
    $strOutputHTML .= '<tr>';
-   $strOutputHTML .= '<td colspan="2">';
+   $strOutputHTML .= '<td>';
    $strOutputHTML .= '<div id="cookieMessageText" style="padding:8px 10px 0 15px;">';
    $strOutputHTML .= '<p style="color:#fff;">' . $message . '  <a id="cookieMessageDetailsLink" target="_blank" title="uporaba piskotkov" href="' . $privacyLink . '">Podrobne informacije</a>.</p>';
    $strOutputHTML .= '</div>';
